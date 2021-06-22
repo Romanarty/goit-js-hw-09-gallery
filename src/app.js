@@ -132,3 +132,4 @@ console.log(img);
     // console.log(img);
   }
 
+export default 5;

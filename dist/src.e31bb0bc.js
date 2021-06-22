@@ -190,6 +190,12 @@ var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
 },{"./../images/demo.jpg":[["demo.3a1bb503.jpg","images/demo.jpg"],"images/demo.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"app.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
 const galleryItems = [{
   preview: 'https://cdn.pixabay.com/photo/2019/05/14/16/43/himilayan-blue-poppy-4202825__340.jpg',
   original: 'https://cdn.pixabay.com/photo/2019/05/14/16/43/himilayan-blue-poppy-4202825_1280.jpg',
@@ -293,6 +299,9 @@ function onCloseModal(e) {
   imgSrcGhange("");
   imgAltGhange(""); // console.log(img);
 }
+
+var _default = 5;
+exports.default = _default;
 },{}],"index.js":[function(require,module,exports) {
 "use strict";
 
@@ -331,7 +340,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51586" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52474" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
